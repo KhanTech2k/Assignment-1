@@ -42,9 +42,14 @@ button a{
 /* Layer2 Style */
 .layer2{
     margin: 74px 152px 90px 148px;
+    padding: 80px 97px;
 }
 .layer2-info{
     text-align: center;
+}
+.layer2-detail{
+    display: flex;
+    flex-direction: column;
 }
 .layer2-title{
     font-size: 32px;
@@ -52,5 +57,38 @@ button a{
     color: rgb(13, 19, 33);
 }
 .layer2-description{
-
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-top: 24px;
+}
+.layer2-group{
+display: flex;
+flex-direction: row;
+gap: 100px;
+margin-top: 48px;
+}
+.layer2-group1{
+    display: flex;
+    padding: 10px 101px 90px 0;
+    gap: 32px;
+}
+.layer2-group-title{
+    font-size: 24px;
+    font-weight: 700px;
+    color: rgba(13, 19, 33, 0.7);
+    text-align: left;
+}
+.layer2-group-description{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    text-align: left;
+}
+.layer2-btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33, 0.7);
+    padding: 12px 20px 12px 20px;
 }
