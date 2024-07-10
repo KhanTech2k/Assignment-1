@@ -127,12 +127,6 @@ margin-top: 48px;
     margin-bottom: 151px;
 }
 /* Current Target Design */
-.skill{
-
-}
-.current-skill{
-
-}
 .current-skill-title{
     font-size: 32px;
     font-weight: 800;
@@ -210,17 +204,25 @@ margin-top: 48px;
 .btn-1{
     width: 548px;
     height: 57px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    /* height: 57px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    padding: 19px 20px;
+    padding: 19px 20px; */
 }
 .btn-2{
     width: 120px;
-    height: 57px;
+    height: 58px;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 700;
-    padding: 17px 20px;
+    padding: 1px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin-top: 24px;
 }
